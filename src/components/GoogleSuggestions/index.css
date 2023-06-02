@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  /* border: 1px solid green; */
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 20px;
+  height: 80vh;
+  border: 1px solid green;
+}
+
+.google-img {
+  height: 120px;
+  width: 350px;
+}
+
+.bg-search-container {
+  flex-grow: 1;
+  /* border: 1px solid blue; */
+}
+
+.search-suggestions-container {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 12px;
+  border: 1px solid #bfbfbf;
+  box-shadow: 5px 5px 16px 5px #bfbfbf;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputEl {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+}
+
+.search-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.suggestion-container {
+  padding-left: 0px;
+}

@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.arrow-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.suggestion-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.arrow-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
